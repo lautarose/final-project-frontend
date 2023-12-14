@@ -84,6 +84,7 @@ const SignupForm = () => {
               <Grid item xs={12}>
                 <TextField
                     label="Nombre"
+                    type="text"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     required
@@ -92,6 +93,7 @@ const SignupForm = () => {
               <Grid item xs={12}>
                 <TextField
                     label="Apellido"
+                    type="text"
                     value={lastName}
                     onChange={(e) => setLastName(e.target.value)}
                     required
@@ -109,6 +111,7 @@ const SignupForm = () => {
               <Grid item xs={12}>
                 <TextField
                   label="Nombre de usuario"
+                  type="text"
                   value={userName}
                   onChange={(e) => setUserName(e.target.value)}
                   required
