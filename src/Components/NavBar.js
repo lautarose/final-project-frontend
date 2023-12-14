@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{ backgroundColor: '#51b93f' }}> {/* Cambia el color de fondo aquí */}
+      <AppBar position="static" sx={{ backgroundColor: 'red' }}> {/* Cambia el color de fondo aquí */}
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Anotador
