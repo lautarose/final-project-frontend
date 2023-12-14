@@ -79,7 +79,7 @@ const SignupForm = () => {
           <Typography component="h1" variant="h5">
             Sign up
           </Typography>
-          <Box component="form" noValidate onSubmit={handleFormSubmit} sx={{ mt: 3 }}>
+          <Box component="form" sx={{ mt: 3 }}>
             <Grid container spacing={4}>
               <Grid item xs={12}>
                 <TextField
@@ -132,6 +132,7 @@ const SignupForm = () => {
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
+              onClick={handleFormSubmit}
             >
               Sign Up
             </Button>
